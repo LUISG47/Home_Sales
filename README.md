@@ -20,3 +20,14 @@ What is the average price of a home per "view" rating having an average home pri
 
 ![Screenshot 2025-03-30 at 6 18 18 p m](https://github.com/user-attachments/assets/4e9b0c29-f6a6-4eba-b428-f4736e303150)
 
+Cache your temporary table home_sales.
+Using the cached data, run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
+
+![Screenshot 2025-03-30 at 6 18 24 p m](https://github.com/user-attachments/assets/aa91aea2-ab74-4794-bd1c-b2ba2f396bbf)
+
+Partition by the "date_built" field on the formatted parquet home sales data.
+Create a temporary table for the parquet data.
+Run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
+
+![Screenshot 2025-03-30 at 6 18 33 p m](https://github.com/user-attachments/assets/e2267596-8118-4043-8252-82911dbf3a60)
+
